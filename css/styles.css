@@ -1,19 +1,43 @@
 /*Setting color, size, alignment for title*/
 .main-title {
-    color: navy;
+    transition-duration: 5s;
+    color: whitesmoke;
     font-size: 40px;
     text-align: center;
     font-weight: bold;
 
-    
+    font-family: Helvetica, sans-serif;
+    font-style: none;
 }
-/*page bg color*/
-body {
-    background-color: #f8f9f5;
+.main-title:hover{
+    transition-duration: 1s;
+    transform: skewX(-10deg);
+    text-shadow: 
+        2px 2px 0 #6100d1,
+        4px 4px 0 #ff1cc1,
+        5px 5px 0 #e59b24
+        ;
 }
+
+
+/*page bg*/
+html {
+    background-image: linear-gradient(
+    130deg,
+    #0c050f 0% 33%,
+    #6100d1 66%,
+    #ff1cc1 85.6%,
+    #e59b24 100%
+    );
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
 /*Setting color, size, bg color, alignment for subtitle*/
 .subtitle {
-    background-color: navy;
+    transition-duration: .5s;
+    background-color: #0d0a29;
     color: white;
     margin: auto;
     width: 50%;
@@ -21,6 +45,15 @@ body {
     text-align: center;
     border-radius: 10px
 }
+.subtitle:hover {
+    transition-duration: .5s;
+    border-radius: 20px;
+    width: 47%;
+    
+}
+
+
+
 /*Centering list*/
 .centered-list {
     color: aliceblue;
@@ -31,18 +64,43 @@ body {
 }
 /*Centering text*/
 p {
-    text-align: center
+    text-align: center;
+    color: whitesmoke;
+}
+/*removing bullet points*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 /*removing blue/underline on text in list*/
-/*also adding bg to make it more buttony*/
 a {
     text-decoration: none;
-    color: black;
-   
+    color: whitesmoke;
+}
+/*also adding bg and motion to make it more buttony*/
+ul li {
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    background-image: linear-gradient(
+    130deg,
+    #ff1cc1 66.6%,
+    #e59b24 100%
+    );
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+ul li:hover {
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+    padding: 10px;
+    
 }
 /*changing to underline on hover*/
 a:hover {
-    text-decoration: underline;
     font-weight: bold;
-    color: navy;
+    color: whitesmoke;
 }
+
+/*Im just experimenting here tbh*/
