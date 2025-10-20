@@ -31,6 +31,16 @@ html {
     );
     background-repeat: no-repeat;
     height: 100%;
+    font-family: Helvetica, san-serif;
+}
+.background-grid {
+    background-image: radial-gradient(
+    rgba(255, 255, 255, 0.2) 8%, 
+    transparent 8%
+  );
+  background-position: 0% 0%;
+  background-size: 5vmin 5vmin;
+  height: calc(100% - 10vmin);
 }
 
 
@@ -40,7 +50,7 @@ html {
     background-color: #0d0a29;
     color: white;
     margin: auto;
-    width: 50%;
+    width: 40%;
     padding: 5%;
     text-align: center;
     border-radius: 10px
@@ -48,7 +58,7 @@ html {
 .subtitle:hover {
     transition-duration: .5s;
     border-radius: 20px;
-    width: 47%;
+    width: 37%;
     
 }
 
@@ -95,6 +105,7 @@ ul li:hover {
     transition-duration: 0.7s;
     transition-timing-function: ease-in-out;
     padding: 10px;
+
     
 }
 /*changing to underline on hover*/
