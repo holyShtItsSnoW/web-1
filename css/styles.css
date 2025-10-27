@@ -40,7 +40,7 @@ html {
   );
   background-position: 0% 0%;
   background-size: 5vmin 5vmin;
-  height: calc(100% - 10vmin);
+  height: calc(200vmin - 10vmin);
 }
 
 
