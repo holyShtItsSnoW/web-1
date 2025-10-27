@@ -22,6 +22,9 @@
 
 /*page bg*/
 html {
+    background-color: #150a21;
+    margin: none;
+    padding: none;
     background-image: linear-gradient(
     130deg,
     #0c050f 0% 33%,
@@ -29,7 +32,8 @@ html {
     #ff1cc1 85.6%,
     #e59b24 100%
     );
-    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
     height: 100vmin;
     font-family: Helvetica, san-serif;
 }
@@ -40,7 +44,7 @@ html {
   );
   background-position: 0% 0%;
   background-size: 5vmin 5vmin;
-  height: 100vmin;
+  height: 100vh;
 }
 
 
