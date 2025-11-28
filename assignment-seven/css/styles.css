@@ -1,0 +1,46 @@
+.outer-box {
+    width: 450px;
+    background-color: yellow;
+    border: solid 5px;
+    border-color: red;
+    padding: 150px;
+}
+.first-img {
+    width: 450px;
+    height: 350px;
+    background-image: url(./imgs/dog.jpg);
+    float: center;
+    margin-bottom: 25px;
+}
+.second-img {
+    width: 450px;
+    height: 350px;
+    background-image: url(./imgs/dog.jpg);
+    background-size: 225px auto;
+    float: center;
+    margin-bottom: 25px;
+}
+.third-img {
+    width: 450px;
+    height: 350px;
+    background-image: url(./imgs/dog.jpg);
+    background-size: 200px auto;
+    background-repeat: no-repeat;
+    float: center;
+    background-position: center right;
+    background-color: lightblue;
+    margin-bottom: 25px;
+}
+.fourth-img {
+    width: 450px;
+    height: 350px;
+    float: center;
+    margin-bottom: 25px;
+}
+.fifth-img {
+    width: 450px;
+    height: 300px;
+    background-color: lightblue;
+    object-fit: contain;
+    object-position: bottom;
+}
